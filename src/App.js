@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div
         style={{
-          padding: "2em"
+          padding: "1em"
         }}
       >
         <h1

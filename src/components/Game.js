@@ -51,8 +51,8 @@ const Game = () => {
       <Board onClick={handleClick} squares={board} isXNext={isXNext} />
       <button
         style={{
-          padding: "1em 3em",
-          margin: "2em auto",
+          padding: "1rem 2rem",
+          margin: "2rem 0.5rem",
           border: isXNext ? "4px solid darkblue" : "",
           borderRadius: "2em",
           fontSize: "1em",
@@ -64,8 +64,8 @@ const Game = () => {
       </button>
       <button
         style={{
-          padding: "1em 3em",
-          margin: "2em auto",
+          padding: "1rem 2rem",
+          margin: "2rem 0.5rem",
           border: !isXNext ? "4px solid darkblue" : "",
           background: "skyblue",
           borderRadius: "2em",
