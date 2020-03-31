@@ -20,7 +20,7 @@ export default function App() {
       </div>
       <Game />
       <p style={{ marginBottom: "1em" }}> Made With </p>
-      <p class="heart" />
+      <p className="heart" />
       <p style={{ marginTop: "1em" }}>Nirmal</p>
     </div>
   );
